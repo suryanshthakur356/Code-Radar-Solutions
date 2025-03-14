@@ -15,9 +15,9 @@ int main(){
 
     bool ans=check(a,b);
     if(ans){
-        printf("%s","true");
+        printf("%s","True");
     }else{
-        printf("%s","false");
+        printf("%s","False");
     }
 
     return 0;
