@@ -2,8 +2,8 @@
 #include<stdbool.h>
 
 bool check(int a,int b){
-    if(a<0 && b<0) return true;
-    return false;
+    if(a>=0 || b>=0) return false;
+    return true;
 }   
 
 
